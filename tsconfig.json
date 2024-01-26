@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@controllers/*": ["application/controllers/*"],
+      "@services/*": ["application/implementation/services/*"],
+      "@entities/*": ["domain/entities/*"],
+      "@repositories/*": ["application/implementation/repositories/*"],
+      "@middlewares/*": ["application/http/middlewares/*"],
+      "@routes/*": ["routes/*"],
+      "@interfaces/services/*": ["application/interfaces/services/*"],
+      "@interfaces/repositories/*": ["application/interfaces/repositories/*"],
+      "@helpers/*": ["application/helpers/*"],
+      "@typeorm-config": ["infrastructure/typeorm.config.ts"],
+      "@dtos/*": ["application/dtos/*"],
+      "@express-config": ["config/express.config.ts"],
+      "@error-custom/*": ["error-handling/*"]
+    },
+    "lib": ["ES2015", "ESNext"],
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

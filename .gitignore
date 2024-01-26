@@ -1,0 +1,13 @@
+.idea/
+src/.env
+.vscode/
+node_modules/
+tmp/
+temp/
+.env
+*-lock.json
+.DS_Store
+build/
+dist/
+.scannerwork/
+```
