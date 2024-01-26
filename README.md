@@ -4,13 +4,13 @@ This project is a vending machine API built with Nodejs, Typescript, Express, Ty
 
 ## Getting Started
 
-To Access the API, you can use the following link: https://pariti.apps.kisese.com/api-docs/
+To Access the live API, you can use the following link: https://pariti.apps.kisese.com/api-docs/
 
 ### Prerequisites
 
 - Nodejs 16.x or later
 - npm or yarn
-- Local databse option sqlite
+- Local database option is SQLite
 
 ### Installation
 
