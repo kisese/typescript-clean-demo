@@ -1,4 +1,4 @@
-# Pariti Take Home Assessment (Vending Machine API)
+# Typescript (Vending Machine API)
 
 This project is a vending machine API built with Nodejs, Typescript, Express, TypeORM, and Swagger UI.
 
